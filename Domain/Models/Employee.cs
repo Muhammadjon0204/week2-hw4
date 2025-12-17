@@ -11,7 +11,7 @@ private DateTime BirthDate ;
 
 private double Salary ;
 
-private Department Department;
+private Department? Department;
 
 public string firstName
     {

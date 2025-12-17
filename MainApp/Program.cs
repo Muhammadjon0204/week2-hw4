@@ -3,6 +3,9 @@ using Domain.Models;
 using Infrastructure.Services;
 
 var employeeServices = new EmployeeServices();
+var departmentServices=new DepartmentServices();
+
+
 
 var employee1=new Employee
 {
@@ -39,3 +42,24 @@ var allEmployees=employeeServices.GetEmployees();
             Console.WriteLine($"{emp.firstName} {emp.lastName} - ${emp.salary}");
         }
         
+var department1=new Department
+{
+    name="IT",
+    description="is services"
+};
+        
+var department2=new Department
+{
+    name="SMM",
+    description="is method to optimize service"
+};
+
+departmentServices.AddDepartaments(department1);
+departmentServices.AddDepartaments(department2);
+
+var allDepartments=departmentServices.GetDepartments();
+
+foreach(var depr in allDepartments)
+{
+    System.Console.WriteLine($"{depr.name} {depr.description}");
+}
