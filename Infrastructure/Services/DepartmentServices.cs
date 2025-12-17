@@ -25,13 +25,16 @@ public int CountDepartaments()
 public void DeleteDepartmentByName(string name)
     {
         var depr=new Department();
-        foreach(var item in departments)
+        for(int i=0 ; i<departments.Count ; i++)
         {
-            if (item.name == name)
+            if (departments[i].name == name)
             {
-                depr=item;
+              departments.RemoveAt(i);
             }
-            departments.Remove(depr);
+            else
+            {
+                System.Console.WriteLine($"The department with name {name} not found!");
+            }
         }
 
     }
