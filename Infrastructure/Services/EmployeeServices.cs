@@ -9,7 +9,7 @@ private List<Employee> employees = new List<Employee>();
 
 
 
-public List<Employee> GetEmployee()
+public List<Employee> GetEmployees()
 {
 return employees;
 }
@@ -22,6 +22,4 @@ public int CountEmployees()
     {
         return employees.Count;
     }
-
-
 }

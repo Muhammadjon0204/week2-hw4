@@ -1,0 +1,16 @@
+C:\Users\user\Desktop\CSHARP\week2\day4\hw\Infrastructure\bin\Debug\net9.0\Infrastructure.deps.json
+C:\Users\user\Desktop\CSHARP\week2\day4\hw\Infrastructure\bin\Debug\net9.0\Infrastructure.dll
+C:\Users\user\Desktop\CSHARP\week2\day4\hw\Infrastructure\bin\Debug\net9.0\Infrastructure.pdb
+C:\Users\user\Desktop\CSHARP\week2\day4\hw\Infrastructure\bin\Debug\net9.0\Domain.dll
+C:\Users\user\Desktop\CSHARP\week2\day4\hw\Infrastructure\bin\Debug\net9.0\Domain.pdb
+C:\Users\user\Desktop\CSHARP\week2\day4\hw\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\CSHARP\week2\day4\hw\Infrastructure\obj\Debug\net9.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\CSHARP\week2\day4\hw\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\CSHARP\week2\day4\hw\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
+C:\Users\user\Desktop\CSHARP\week2\day4\hw\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\CSHARP\week2\day4\hw\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json
+C:\Users\user\Desktop\CSHARP\week2\day4\hw\Infrastructure\obj\Debug\net9.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\user\Desktop\CSHARP\week2\day4\hw\Infrastructure\obj\Debug\net9.0\Infrastructure.dll
+C:\Users\user\Desktop\CSHARP\week2\day4\hw\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
+C:\Users\user\Desktop\CSHARP\week2\day4\hw\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
+C:\Users\user\Desktop\CSHARP\week2\day4\hw\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll

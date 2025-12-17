@@ -26,3 +26,16 @@ var employee3=new Employee
     salary=2900
 };
 
+employeeServices.AddEmployees(employee1);
+employeeServices.AddEmployees(employee2);
+employeeServices.AddEmployees(employee3);
+
+System.Console.WriteLine($"Kolichestvo sotrudnikov {employeeServices.CountEmployees()}");
+
+var allEmployees=employeeServices.GetEmployees();
+
+   foreach (var emp in allEmployees)
+        {
+            Console.WriteLine($"{emp.firstName} {emp.lastName} - ${emp.salary}");
+        }
+        
