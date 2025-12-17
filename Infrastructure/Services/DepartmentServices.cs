@@ -22,4 +22,18 @@ public int CountDepartaments()
         return departments.Count;
     }
 
+public void DeleteDepartmentByName(string name)
+    {
+        var depr=new Department();
+        foreach(var item in departments)
+        {
+            if (item.name == name)
+            {
+                depr=item;
+            }
+            departments.Remove(depr);
+        }
+
+    }
+
 }
