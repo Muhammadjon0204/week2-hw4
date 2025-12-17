@@ -26,13 +26,16 @@ public int CountEmployees()
 public void DeleteEmployeeByName(string name)
     {
         var emp=new Employee();
-        foreach(var item in employees)
+        for(int i=0; i<employees.Count ; i++)
         {
-            if (item.firstName == name)
+            if (employees[i].firstName == name)
             {
-                emp=item;
+                employees.RemoveAt(i);
             }
-            employees.Remove(emp);
+            else
+            {
+                System.Console.WriteLine($"Employee with {name} can't be found!!");
+            }
         }
 
     }
