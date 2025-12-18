@@ -56,6 +56,7 @@ var department2=new Department
 
 departmentServices.AddDepartaments(department1);
 departmentServices.AddDepartaments(department2);
+departmentServices.DeleteDepartmentByName("SMM");
 
 var allDepartments=departmentServices.GetDepartments();
 
@@ -63,3 +64,4 @@ foreach(var depr in allDepartments)
 {
     System.Console.WriteLine($"{depr.name} {depr.description}");
 }
+

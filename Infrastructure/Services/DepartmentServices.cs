@@ -30,6 +30,7 @@ public void DeleteDepartmentByName(string name)
             if (departments[i].name == name)
             {
               departments.RemoveAt(i);
+              System.Console.WriteLine($"Department with name {name} was deleted.");
             }
             else
             {
